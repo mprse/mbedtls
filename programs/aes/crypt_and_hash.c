@@ -90,8 +90,8 @@ int main( int argc, char *argv[] )
     unsigned char IV[16];
     unsigned char key[512];
     unsigned char digest[MBEDTLS_MD_MAX_SIZE];
-    unsigned char buffer[1024];
-    unsigned char output[1024];
+    unsigned char buffer[2048];
+    unsigned char output[2048];
     unsigned char diff;
 
     const mbedtls_cipher_info_t *cipher_info;
